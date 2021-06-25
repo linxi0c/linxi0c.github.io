@@ -1622,6 +1622,9 @@ pre code {
   display: inline-block;
   margin: 0 5px;
 }
+.beian img {
+  display: inline-block;
+}
 @-moz-keyframes icon-animate {
   0%, 100% {
     transform: scale(1);
@@ -2611,7 +2614,7 @@ ul.breadcrumb li:last-child {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #b5d9d7;
+  background: #fff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
